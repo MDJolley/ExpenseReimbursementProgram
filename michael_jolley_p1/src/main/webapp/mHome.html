@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReimburseME</title>
+        <link rel="stylesheet" href="/ERP/bootstrapPurp.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+                <a class="navbar-brand" href="http://localhost:8080/ERP/me/welcome/user">ReimburseME</a>
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav"> 
+                            <a href="http://localhost:8080/ERP/me/ticket/respond" class="nav-link nav-item">Respond to Tickets</a>
+                    </div>
+                </div>
+                <div class="navbar-text" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li id="log" class="nav-item">
+                            <a class="nav-link" href="http://localhost:8080/ERP/me/logout">Logout</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+        </nav>
+        
+        <div class="center-this">
+
+            <div class="ticket-table">
+                <h1 class="display-4" id="welcome-user"></h1>
+                <p class="lead">Ready to get to work?</p>
+                
+            </div>
+        </div>
+
+        <script src="/ERP/myScripts.js"></script>
+    </body>
+    </html>
